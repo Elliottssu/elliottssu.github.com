@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog</title>
+    <title>苏良刚-前端工程师个人博客</title>
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -22,15 +23,45 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="home.html" class="nav-active">首页</a></li>
+            <li class="nav-active"><a href="home.html">首页</a></li>
             <li><a href="save.html">存档</a></li>
+            <li><a href="production.html">作品</a></li>
             <li><a href="assembly.html">组件</a></li>
-            <li><a href="nav.html">导航</a></li>
             <li><a href="about.html">关于</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    <section id="inner-indicators">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active"><img src="img/1.png" alt=""></div>
+          <div class="item"><img src="img/2.jpg" alt=""></div>
+          <div class="item"><img src="img/3.jpg" alt=""></div>
+          <div class="item"><img src="img/4.png" alt=""></div>
+          <div class="item"><img src="img/5.png" alt=""></div>
+          <div class="item"><img src="img/6.png" alt=""></div>
+          <div class="item"><img src="img/7.png" alt=""></div>
+        </div>
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="img/1.png" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"><img src="img/2.jpg" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"><img src="img/3.jpg" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"><img src="img/4.png" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"><img src="img/5.png" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="5"><img src="img/6.png" alt=""></li>
+          <li data-target="#carousel-example-generic" data-slide-to="6"><img src="img/7.png" alt=""></li>
+        </ol>
+        <div class="visible-xs">
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="fa fa-angle-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="fa fa-angle-right"></span>
+          </a>
+        </div>
+      </div>      
+    </section>
 
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
