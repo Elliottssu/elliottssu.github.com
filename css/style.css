@@ -2,3 +2,104 @@ body {
     font: 14px/1.5 arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
     background: #f5f5f5;
 }
+.newart{
+	padding: 20px 0px 10px 0;
+	zoom:1;
+}
+.newart h1{
+	font-size: 14px;
+	text-indent: -5000px;
+	float:left;
+}
+.newart h2{
+	color: #898989;
+	font-size: 22px;
+	font-weight: normal;
+	float:left;
+}
+.newart:after{
+	clear:both;
+	content:'.';
+	display:block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+}
+.r-box{
+	background: #fff;
+    box-shadow: 0 1px 7px #bcbcbc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.tc-title{
+	font-size: 16px;
+    font-weight: normal;
+    color: #6B6B6B;
+    border-bottom: #F2F2F2 2px solid !important;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+.tc-title{
+	padding-left: 10px;
+	color: #898989;
+}
+.tc-box{
+	margin: 9px
+}
+.tc-box img{
+	width:20px;
+	height: 20px;
+}
+.tc-box a{
+	padding-left: 3px
+}
+.tc-box .row .col-sm-4{
+/*	background: url(../img/tc.png);
+	background-position:0 10%;
+	background-repeat: no-repeat;
+    background-size: 37%;*/
+    padding-left: 2%;
+    margin-top: 10px;
+}
+/*.tc-box .ht5{
+	background-position:0 1.5%!important;
+}
+.tc-box .c3{
+	background-position:0 12.5%!important;
+}
+.tc-box .js{
+	background-position:0 23%!important;
+}
+.tc-box .jq{
+	background-position:0 35%!important;
+}
+.tc-box .ag{
+	background-position:0 47%!important;
+}
+.tc-box .bs{
+	background-position:0 59.5%!important;
+}
+.tc-box .nd{
+	background-position:0 70%!important;
+}
+.tc-box .wa{
+	background-position:0 84%!important;
+}
+.tc-box .aj{
+	background-position:0 98%!important;
+}*/
+/*.tc-box ul{
+	list-style: none;
+}
+.tc-box li{
+	float:left;
+	font-size:16px;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 10px;
+	overflow: hidden;
+}*/
