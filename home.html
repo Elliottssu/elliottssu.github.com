@@ -8,6 +8,88 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <style>
+      .tc-box a{
+        text-decoration:none;
+      }
+      .tc-box a:hover {
+          color: #ffab00;
+      }
+      .l-content dl{
+        background: white;
+        box-shadow: 0px 1px 7px #BCBCBC;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 4px;
+
+      }
+      .l-content .article-list{
+        height: 50px;
+        padding: 15px;
+        color: #929292;
+
+      }
+      .l-content .article-date {
+          font-size: 18px;
+          font-size: 16px;
+          color: #929292;
+          font-family: "Helvetica","Tahoma","Arial","PingFang SC","Microsoft YaHei","SimSun","sans-serif";
+      }
+      .l-content .article-tc-name{
+          background: none;
+          padding: 0px 0px;
+          font-size: 16px;
+          color: #5A5A5A;
+          font-weight: bold;
+          margin-left: 5px;
+          font-family: "Helvetica","Tahoma","Arial","PingFang SC","Microsoft YaHei","SimSun","sans-serif";
+      }
+      .l-content .article-tc-img img{
+          width: 25px;
+          height: 25px
+      }
+      .article-new-img{
+          text-align: center;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 10px
+      }
+      .article-new-img img{
+          width: 100%;
+      }
+      .l-content dt {
+          font-weight: bold;
+          margin: 0 15px;
+          padding: 0 10px;
+          margin-top: 15px;
+          margin-bottom: 10px;
+      }
+      .l-content dt a {
+          font-size: 22px;
+          color: #5A5A5A;
+          font-weight: 500;
+      }
+      .l-content dd.article-summary {
+          color: #929292;
+          font-size: 15px;
+          margin: 0 25px;
+          margin-bottom: 20px;
+      }
+      .article-active{
+          color: #929292;
+          font-size: 14px;
+          margin: 0;
+          padding: 0px 15px 30px 20px;
+          height: 26px;
+          line-height: 26px;
+      }
+      .article-active i{
+          margin-left: 10px;
+      }
+      .article-active span{
+          margin-left: 5px;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -32,67 +114,136 @@
         </div>
       </div>
     </nav>
-    <section id="inner-indicators">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="item active"><img src="img/1.png" alt=""></div>
-          <div class="item"><img src="img/2.jpg" alt=""></div>
-          <div class="item"><img src="img/3.jpg" alt=""></div>
-          <div class="item"><img src="img/4.png" alt=""></div>
-          <div class="item"><img src="img/5.png" alt=""></div>
-          <div class="item"><img src="img/6.png" alt=""></div>
-          <div class="item"><img src="img/7.png" alt=""></div>
-        </div>
-        <ol class="carousel-indicators hidden-xs">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="img/1.png" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"><img src="img/2.jpg" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"><img src="img/3.jpg" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"><img src="img/4.png" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="4"><img src="img/5.png" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="5"><img src="img/6.png" alt=""></li>
-          <li data-target="#carousel-example-generic" data-slide-to="6"><img src="img/7.png" alt=""></li>
-        </ol>
-        <div class="visible-xs">
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="fa fa-angle-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="fa fa-angle-right"></span>
-          </a>
-        </div>
-      </div>      
-    </section>
-    <section id="main">
-      <div class="container main-contain">
-        <div class="newart ">
-          <h2>最新文章</h2>
-          <h1><a href="http://www.github.meiculture.com" title="苏良刚—前端工程师个人博客">苏良刚</a></h1>
-        </div>
-        <div class="row">
-          <div class="col-sm-8 col-xs-12 l-content">
-            1
-          </div>
-          <div class="col-sm-4 hidden-xs r-content">
-            <div class="r-box">
-              <div class="tc-title">技术频道</div>
-              <div class="tc-box">
-                <div class="row">
-                  <div class="col-sm-4 ht5"><img src="img/tc/html5.png" alt=""><a href="#" target="_blank" title="HTML5">HTML5</a></div>
-                  <div class="col-sm-4 c3"><img src="img/tc/css3.png" alt=""><a href="#" target="_blank" title="CSS3">CSS3</a></div>
-                  <div class="col-sm-4 js"><img src="img/tc/javascrapt.png" alt=""><a href="#" target="_blank" title="Javascrapt">Javascrapt</a></div>
-                  <div class="col-sm-4 jq"><img src="img/tc/jquery.png" alt=""><a href="#" target="_blank" title="jQuery">jQuery</a></div>
-                  <div class="col-sm-4 ag"><img src="img/tc/angularjs.png" alt=""><a href="#" target="_blank" title="AngularJS">Angular</a></div>
-                  <div class="col-sm-4 bs"><img src="img/tc/bootstrap.png" alt=""><a href="#" target="_blank" title="Bootstrap">Bootstrap</a></div>
-                  <div class="col-sm-4 nd"><img src="img/tc/nodejs.png" alt=""><a href="#" target="_blank" title="Node.js">Node.js</a></div>            
-                  <div class="col-sm-4 aj"><img src="img/tc/ajax.png" alt=""><a href="#" target="_blank" title="Ajax">Ajax</a></div>
-                  <div class="col-sm-4 wa"><img src="img/tc/webapp.png" alt=""><a href="#" target="_blank" title="Web App">Web&nbsp;App</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="container">
+       <section id="inner-indicators">
+         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+           <div class="carousel-inner" role="listbox">
+             <div class="item active"><img src="img/1.png" alt=""></div>
+             <div class="item"><img src="img/2.jpg" alt=""></div>
+             <div class="item"><img src="img/3.jpg" alt=""></div>
+             <div class="item"><img src="img/4.png" alt=""></div>
+             <div class="item"><img src="img/5.png" alt=""></div>
+             <div class="item"><img src="img/6.png" alt=""></div>
+             <div class="item"><img src="img/7.png" alt=""></div>
+           </div>
+           <ul class="carousel-indicators hidden-xs">
+             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="img/1.png" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="1"><img src="img/2.jpg" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="2"><img src="img/3.jpg" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="3"><img src="img/4.png" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="4"><img src="img/5.png" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="5"><img src="img/6.png" alt=""></li>
+             <li data-target="#carousel-example-generic" data-slide-to="6"><img src="img/7.png" alt=""></li>
+           </ul>
+           <div class="visible-xs">
+             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+               <span class="fa fa-angle-left"></span>
+             </a>
+             <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+               <span class="fa fa-angle-right"></span>
+             </a>
+           </div>
+         </div>      
+       </section>   
+       <section id="main">
+         <div class="main-contain">
+           <div class="newart ">
+             <h2>最新文章</h2>
+             <h1><a href="http://www.github.meiculture.com" title="苏良刚—前端工程师个人博客">苏良刚</a></h1>
+           </div>
+           <div class="row">
+             <div class="col-md-8 col-xs-12 l-content">
+               <dl class="clearfix">
+                 <div class="article-list">
+                   <div class="article-tc">
+                     <div class="article-tc-img pull-left"><img src="img/tc/angularjs.png" alt=""></div>
+                     <div class="article-tc-name pull-left">Angular</div>
+                   </div>
+                   <div class="article-date pull-right">4小时前</div>
+                 </div>
+                 <dd class="article-new-img">
+                   <a href="#"><img src="img\index\1.jpg" alt=""></a>
+                 </dd>
+                 <dt>
+                   <a href="#">有一种生活叫：远在他乡</a>
+                 </dt>
+                 <dd class="article-summary">
+                   房子是租来的，但生活是自己的。家在湖南北部的大山深处，山清水秀，民风淳朴，外出务工在我们那里是常态，我也不例外；大学学的平面设计，毕业后在深圳从事淘宝...
+                 </dd>
+                 <dd class="article-active pull-right ">
+                   <i class="fa fa-thumbs-up"></i><span>2</span>
+                   <i class="fa fa-comments"></i><span>6</span>
+                 </dd>
+               </dl>
+               <dl class="clearfix">
+                 <div class="article-list">
+                   <div class="article-tc">
+                     <div class="article-tc-img pull-left"><img src="img/tc/angularjs.png" alt=""></div>
+                     <div class="article-tc-name pull-left">Angular</div>
+                   </div>
+                   <div class="article-date pull-right">4小时前</div>
+                 </div>
+                 <dd class="article-new-img">
+                   <a href="#"><img src="img\index\1.jpg" alt=""></a>
+                 </dd>
+                 <dt>
+                   <a href="#">有一种生活叫：远在他乡</a>
+                 </dt>
+                 <dd class="article-summary">
+                   房子是租来的，但生活是自己的。家在湖南北部的大山深处，山清水秀，民风淳朴，外出务工在我们那里是常态，我也不例外；大学学的平面设计，毕业后在深圳从事淘宝...
+                 </dd>
+                 <dd class="article-active pull-right ">
+                   <i class="fa fa-thumbs-up"></i><span>2</span>
+                   <i class="fa fa-comments"></i><span>6</span>
+                 </dd>
+               </dl>
+               <dl class="clearfix">
+                 <div class="article-list">
+                   <div class="article-tc">
+                     <div class="article-tc-img pull-left"><img src="img/tc/angularjs.png" alt=""></div>
+                     <div class="article-tc-name pull-left">Angular</div>
+                   </div>
+                   <div class="article-date pull-right">4小时前</div>
+                 </div>
+                 <dd class="article-new-img">
+                   <a href="#"><img src="img\index\1.jpg" alt=""></a>
+                 </dd>
+                 <dt>
+                   <a href="#">有一种生活叫：远在他乡</a>
+                 </dt>
+                 <dd class="article-summary">
+                   房子是租来的，但生活是自己的。家在湖南北部的大山深处，山清水秀，民风淳朴，外出务工在我们那里是常态，我也不例外；大学学的平面设计，毕业后在深圳从事淘宝...
+                 </dd>
+                 <dd class="article-active pull-right ">
+                   <i class="fa fa-thumbs-up"></i><span>2</span>
+                   <i class="fa fa-comments"></i><span>6</span>
+                 </dd>
+               </dl>
+             </div>
+             <div class="col-md-4 hidden-xs r-content">
+               <div class="r-box">
+                 <div class="tc-title">技术频道</div>
+                 <div class="tc-box">
+                   <div class="row">
+                     <div class="col-sm-4 ht5"><img src="img/tc/html5.png" alt=""><a href="#" target="_blank" title="HTML5">HTML5&nbsp;&nbsp;</a></div>
+                     <div class="col-sm-4 c3"><img src="img/tc/css3.png" alt=""><a href="#" target="_blank" title="CSS3">CSS3&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                     <div class="col-sm-4 js"><img src="img/tc/javascrapt.png" alt=""><a href="#" target="_blank" title="Javascrapt">Javascrapt</a></div>
+                     <div class="col-sm-4 jq"><img src="img/tc/jquery.png" alt=""><a href="#" target="_blank" title="jQuery">jQuery&nbsp;&nbsp;</a></div>
+                     <div class="col-sm-4 ag"><img src="img/tc/angularjs.png" alt=""><a href="#" target="_blank" title="AngularJS">Angular</a></div>
+                     <div class="col-sm-4 bs"><img src="img/tc/bootstrap.png" alt=""><a href="#" target="_blank" title="Bootstrap">Bootstrap</a></div>
+                     <div class="col-sm-4 nd"><img src="img/tc/nodejs.png" alt=""><a href="#" target="_blank" title="Node.js">Node.js&nbsp;&nbsp;</a></div>            
+                     <div class="col-sm-4 aj"><img src="img/tc/ajax.png" alt=""><a href="#" target="_blank" title="Ajax">Ajax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                     <div class="col-sm-4 wa"><img src="img/tc/webapp.png" alt=""><a href="#" target="_blank" title="Web App">Web&nbsp;App</a></div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+    </div>
+    
+    
 
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
